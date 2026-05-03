@@ -1,0 +1,9 @@
+{  
+  "document_id": "87118bfbd7eefc3ae3d298fa",
+  "workspace_id": "ef70826df56b41932b08f808",
+  "element_id": "830a888e69550092ee8c4e7f",
+  
+  "assembly_name": "Simulate",
+  "output_format": "urdf",
+  "robot_name": "KUKA_LBR_iiwa"
+}
