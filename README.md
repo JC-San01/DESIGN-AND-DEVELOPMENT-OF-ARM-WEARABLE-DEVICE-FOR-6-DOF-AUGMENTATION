@@ -1,5 +1,5 @@
 # Design and Development of Arm Wearable Device for 6-DOF Augmentation
-## 🤖 KUKA LBR iiwa - IMU-Based Motion Control
+## 🤖 KUKA LBR iiwa 14 R820 - IMU-Based Motion Control
 
 Real-time control of a 6-DOF robot arm using dual MPU9250 9-DOF sensors with sensor fusion, PyBullet simulation, and live GUI visualization.
 
@@ -30,13 +30,13 @@ This project enables intuitive robot arm control through natural human arm movem
 
 ## 🛠️ Hardware Requirements
 
-- **Microcontroller**: Arduino (tested on ESP32/Arduino Mega)
-- **Sensors**: 2x MPU9250 9-DOF (Accel+Gyro+Mag)
-- **Robot**: KUKA LBR iiwa or compatible URDF model
+- **Microcontroller**: ESP32-S3
+- **Sensors**: 2x MPU9250 
+- **Robot**: KUKA LBR iiwa 14 R820
 - **Computer**: Windows/Linux with Python 3.7+
 
 ## 🎮 How It Works
 
-1. **Arduino**: Reads raw IMU data, applies calibration, performs sensor fusion, outputs joint angles over serial
-2. **Python**: Receives angles, calculates velocities, computes Jacobian, drives PyBullet simulation
+1. **Arduino Sketch (Arm Motion Capture.ino)**: Reads raw IMU data, applies calibration, performs sensor fusion, outputs joint angles over serial
+2. **Python Script (Simulation.py)**: Receives angles, calculates velocities, computes Jacobian, drives PyBullet simulation
 3. **GUI**: Real-time visualization of angles, velocities, and end effector motion
