@@ -1,11 +1,11 @@
 # Design and Development of Arm Wearable Device for 6-DOF Augmentation
 ## 🤖 KUKA LBR iiwa 14 R820 - IMU-Based Motion Control
 
-Real-time control of a 6-DOF robot arm using dual MPU9250 9-DOF sensors with sensor fusion, PyBullet simulation, and live GUI visualization.
+Real-time control of a 6-DOF robot arm using dual MPU9250 sensors with sensor fusion, PyBullet simulation, and live GUI visualization.
 
 ## 🎯 Overview
 
-This project enables intuitive robot arm control through natural human arm movements using two MPU9250 sensors mounted on the upper arm and forearm. The system performs real-time sensor fusion (gyroscope + magnetometer) to eliminate drift in the yaw axis, providing accurate joint angle estimation without positional drift over time.
+This project enables intuitive robot arm control through natural human arm movements using two MPU9250 sensors mounted on the upper arm and forearm. The system performs real-time sensing to eliminate drift in the yaw axis, providing accurate joint angle estimation without positional drift over time.
 
 ## ✨ Features
 
