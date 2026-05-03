@@ -23,7 +23,7 @@ This project enables intuitive robot arm control through natural human arm movem
   - Current joint angles (degrees)
   - Joint velocities (deg/s)
   - End effector linear velocity (m/s) via Jacobian calculation
-- **Automatic Calibration**: Gyro bias and magnetometer hard-iron offset calibration
+- **Automatic Calibration**: Gyro bias and magnetometer offset calibration
 - **Configurable Gains**: Adjustable velocity gains and motion thresholds per joint
 - **Joint Limits**: Enforced safety limits for all 6 axes
 - **Camera Controls**: Multiple preset views (front, back, isometric, top) with keyboard shortcuts
