@@ -10,9 +10,9 @@ This project enables intuitive robot arm control through natural human arm movem
 ## ✨ Features
 
 - **Dual Sensor Setup**: Two MPU9250 sensors track upper arm and forearm/wrist movements independently
-- **Sensor Fusion**: Complementary filter (98% gyro + 2% magnetometer) for drift-free yaw angle (Joint 1)
+- **Sensor Fusion**: Complementary filter for drift-free yaw angle (Joint 1)
 - **6-DOF Control**: Complete control of all 6 robot joints:
-  - J1: Yaw (Z-axis) - Gyro + Mag Fusion
+  - J1: Yaw (Z-axis) - Arm turn left/right
   - J2: Roll (X-axis) - Arm raise/lower
   - J3: Pitch (Y-axis) - Bicep rotation
   - J4: Elbow (Z-axis) - Relative to J1
@@ -23,7 +23,6 @@ This project enables intuitive robot arm control through natural human arm movem
   - Current joint angles (degrees)
   - Joint velocities (deg/s)
   - End effector linear velocity (m/s) via Jacobian calculation
-- **Automatic Calibration**: Gyro bias and magnetometer offset calibration
 - **Configurable Gains**: Adjustable velocity gains and motion thresholds per joint
 - **Joint Limits**: Enforced safety limits for all 6 axes
 - **Camera Controls**: Multiple preset views (front, back, isometric, top) with keyboard shortcuts
